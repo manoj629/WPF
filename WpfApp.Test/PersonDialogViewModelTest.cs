@@ -15,12 +15,12 @@ namespace WpfApp.Test
 	{
 		PersonDialogViewModel viewModel;
 
-		[TestInitialize]
-		public void TestInitialize()
-		{
-			TestSetup();
+        [TestInitialize]
+        public void TestInitialize()
+        {
+            TestSetup();
 
-            }
+        }
 
 		private void GivenNoPerson()
 		{
