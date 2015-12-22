@@ -15,15 +15,11 @@ namespace WpfApp.Test
 	{
 		PersonDetailsViewModel viewModel;
 
-		[TestInitialize]
-		public void TestInitialize()
-		{
-			TestSetup();
-
-
-
-		}
-
+        [TestInitialize]
+        public void TestInitialize()
+        {
+            TestSetup();
+        }
 		private void GivenEmptyViewModel()
 		{
 			viewModel = new PersonDetailsViewModel(personServiceMock.Object, dispatcherMock.Object, aggregatorMock.Object, dialogServiceMock.Object);
