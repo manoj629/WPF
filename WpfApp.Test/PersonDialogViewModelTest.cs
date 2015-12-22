@@ -19,6 +19,8 @@ namespace WpfApp.Test
 		public void TestInitialize()
 		{
 			TestSetup();
+
+
 		}
 
 		private void GivenNoPerson()
